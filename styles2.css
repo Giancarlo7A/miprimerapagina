@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(212, 205, 195);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(76, 55, 95);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    gap: 0.5em;
+}
+
+header a i {
+    color: rgb(233, 88, 119);
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+header nav ul li a {
+    color: rgb(216, 188, 136);
+    padding: 0.5em;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color:rgb(216, 188, 136) ;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    /* margin: 2rem; */
+    width: 50%;
+}
+
+.acerca-de {
+    text-align: right;
+    padding: 1rem;
+}
+
+/* main section div h2 {
+    margin: 0%;
+} */
+
+.parrafo1 {
+    color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.parrafo2 {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#img-personal {
+    width: 15em;
+    padding: 1rem;
+}
+
+#img-carrusel {
+    width: 100%;
+}
+
+.seccion-3 {
+    display: flex;
+    /* align-items: left; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seccion-3 a {
+    color: rgb(130, 99, 41);
+}
+
+.temas {
+    font-size: 1.5rem;
+}
+
+.img-trabajo {
+    width: 100%;
+    border-radius: 1em;
+}
+
+.container-trabajos {
+    display: flex;
+    flex-direction: row;
+}
+
+.Trabajos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 1rem 4rem 4rem 4em;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(76, 55, 95);
+    flex-direction: column;
+}
+
+footer ul li a {
+    color: rgb(216, 188, 136);
+    padding: 0.5em; 
+}
+
+h3 {
+    color: rgb(228, 182, 31);
+    padding-left: 1em;
+}
+
+.corazon-flotante {
+    position: fixed;
+    bottom: 0.5em;
+    right: 0.5em;
+}
+
+footer a i {
+    color: rgb(233, 88, 119);
+    font-size: 1.5em;
+}
+
+  /* ------------- Encabezado Contacto ------------- */
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+  
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+  
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    header {
+        background-color: rgb(108, 92, 71);
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .navbar {
+        height: 0vh;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: #2c3e50;
+        text-align: center;
+    
+        transition: all 0.5s;
+        overflow: hidden;
+      }
+    
+      .navbar ul.menu {
+        float: none;
+        display: block;
+        width: 174px;
+        margin: 0 auto;
+        opacity: 0;
+        padding: 0%;
+      }
+
+      nav ul.menu li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 5px;
+      }
+
+    /* #encabezado {
+        position: fixed;
+    } */
+
+    /* #encabezado ul {
+        position: absolute;
+        width: 100%;
+        height: 0vh;
+        background-color: rgb(14, 14, 86);
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+        top: 80px;
+        left: 100%;
+        transition: all 0.5s;
+        overflow: hidden;
+        background-color: aqua;
+    }
+
+    
+    .navbar ul.menu {
+        float: none;
+        display: block;
+        width: 174px;
+        margin: 0 auto;
+        opacity: 0;
+        background-color: brown;
+    } */
+/* 
+    .navbar ul.menu li a:hover {
+        color: #b59a61;
+    } */
+     /* ACTIVE */
+     .navbar.active {
+        height: 100vh;
+    }
+
+      .navbar.active ul.menu {
+        opacity: 1;
+    }
+
+
+    /* MENU DESPLEGABLE CSS */
+
+    /* #check:checked ~ ul {
+        left: 0%;
+        display: block
+    }
+
+    #encabezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        
+    }
+
+    #encabezado nav ul li a {
+        font-size: 20px;
+    } */
+
+    /* AQUI TERMINA MENU DESPLEGABLE */
+
+    .seccion-1 {
+        flex-direction: column;
+        padding-top: 5em;
+       }
+    
+    .container-trabajos {
+        flex-direction: column;
+    }
+
+    .acerca-de {
+        text-align: center;
+    }
+
+      /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+      width: auto;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+    .form-row textarea {
+      width: 250px;
+    }
+    .form-row button {
+      margin-left: 120px;
+    }
+    
+
+}
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://kit.fontawesome.com/6033a2e2be.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+                    <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                    </label>
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mí</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2>Acerca de mí</h2>
+                    <p class="parrafo1">¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+                    </p>
+                    <p class="parrafo2">Me llamo Giancarlo, nací en el Callao y vivo en Lima. Me gusta la música, la playa y el campo. Quiero aprender a programar para tener un ingreso extra.
+                    </p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="Imágenes/20211230_114018.jpg" alt="imagen personal" id="img-personal">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="Imágenes/Carrusel.jpg" alt="imagen carrusel" id="img-carrusel">
+            </section>
+            <section class="seccion-3">
+                <h3 class="temas">Más sobre mí</h3>
+                <div class="container-trabajos">
+                    <div class="Trabajos">
+                        <img src="Imágenes/neom-sP5ZW-JDIfI-unsplash.jpg" alt="img-trabajo-1" class="img-trabajo">
+                        <h4>Título </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolor in! Maiores, sit necessitatibus molestiae illo recusandae quae ad earum aliquid? Ipsam reiciendis modi maxime! Deleniti praesentium ad eius aspernatur.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                    <div class="Trabajos">
+                        <img src="Imágenes/neom-sP5ZW-JDIfI-unsplash.jpg" alt="img-trabajo-1" class="img-trabajo">
+                        <h4>Título </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolor in! Maiores, sit necessitatibus molestiae illo recusandae quae ad earum aliquid? Ipsam reiciendis modi maxime! Deleniti praesentium ad eius aspernatur.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                        <div class="Trabajos">
+                        <img src="Imágenes/neom-sP5ZW-JDIfI-unsplash.jpg" alt="img-trabajo-1" class="img-trabajo">
+                        <h4>Título </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, dolor in! Maiores, sit necessitatibus molestiae illo recusandae quae ad earum aliquid? Ipsam reiciendis modi maxime! Deleniti praesentium ad eius aspernatur.</p>
+                        <a href="#">Leer más</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h3>
+               Redes
+            </h3> 
+            <nav>
+                 <ul>
+                    <li><a href="#facebook">Facebook</a></li>
+                    <li><a href="#instagram">Instagram</a></li> 
+                    <li><a href="#x">X</a></li> 
+                    <li><a href="#whatsapp">Whatsapp</a></li> 
+                 </ul>
+            </nav> 
+            <div class="corazon-flotante">
+               <a href="index.html"><i class="fa-solid fa-heart"></i></a> 
+            </div>
+            <div class="form-header">
+                <h4>Contacto</h4>
+                <p><em>¡Esperamos tu consulta!</em></p>
+          
+                <form action="" method="get" class="formulario" id="form">
+                  <div class="form-row">
+                      <label for="nombre">Nombre</label>
+                      <input id="nombre" name="nombre" type="text" />
+                    </div>
+                    <div class="form-row">
+                      <label for="email">Email</label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="pepe@gmail.com"
+                      />
+                    </div>
+                    <div class="form-row">
+                      <label for="mensaje">Mensaje</label>
+                      <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <div class="form-row">
+                      <button>Enviar</button>
+                    </div>
+                    <p id="alertas"></p>
+                </form>
+            </div>   
+        </footer>
+    </div>
+</body>
+</html>
