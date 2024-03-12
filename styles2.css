@@ -61,6 +61,12 @@ main {
     align-items: center;
 }
 
+.greeting {
+  background-color: #407fc7;
+  color: red;
+  
+}
+
 .seccion-1 {
     display: flex;
     justify-content: center;
