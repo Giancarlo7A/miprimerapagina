@@ -61,11 +61,11 @@ main {
     align-items: center;
 }
 
-.greeting {
+/* .greeting {
   background-color: #407fc7;
   color: red;
   
-}
+} */
 
 .seccion-1 {
     display: flex;
